@@ -111,7 +111,7 @@ if (!isset($_SESSION['login_oke']))
                         </tr>
                       </thead>
                       <?php
-                      $conn = mysqli_connect('localhost', 'root', '', 'hotel-booking');
+                      $conn = mysqli_connect('hotel-booking-cloud','doadmin','EGZKPZ2itwg3EsuO','defaultdb');
                       if (!$conn) {
                         die("Không thể kết nối,kiểm tra lại các tham số kết nối");
                       }
@@ -173,7 +173,7 @@ if (!isset($_SESSION['login_oke']))
                         </tr>
                       </thead>
                       <?php
-                      $conn = mysqli_connect('localhost', 'root', '', 'hotel-booking');
+                      $conn = mysqli_connect('hotel-booking-cloud','doadmin','EGZKPZ2itwg3EsuO','defaultdb');
                       if (!$conn) {
                         die("Không thể kết nối,kiểm tra lại các tham số kết nối");
                       }
